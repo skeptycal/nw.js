@@ -1,19 +1,19 @@
 ## node-webkit is renamed NW.js
 
-[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nwjs/nw.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)  
-Official site: https://nwjs.io  
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nwjs/nw.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Official site: https://nwjs.io
 ## Introduction
 
-NW.js is an app runtime based on `Chromium` and `node.js`. You can 
+NW.js is an app runtime based on `Chromium` and `node.js`. You can
 write native apps in HTML and JavaScript with NW.js. It also lets you
 call Node.js modules directly from the DOM and enables a new way of writing
 native applications with all Web technologies.
 
 It was created in the Intel Open Source Technology Center.
 
-[Building a Cross-platform Desktop App with NW.js](https://www.sitepoint.com/cross-platform-desktop-app-nw-js/)     
-[Creating Desktop Applications With node-webkit](https://strongloop.com/strongblog/creating-desktop-applications-with-node-webkit/)     
-[WebApp to DesktopApp with node-webkit (slides)](http://oldgeeksguide.github.io/presentations/html5devconf2013/wtod.html)  
+[Building a Cross-platform Desktop App with NW.js](https://www.sitepoint.com/cross-platform-desktop-app-nw-js/)
+[Creating Desktop Applications With node-webkit](https://strongloop.com/strongblog/creating-desktop-applications-with-node-webkit/)
+[WebApp to DesktopApp with node-webkit (slides)](http://oldgeeksguide.github.io/presentations/html5devconf2013/wtod.html)
 [Essay on the history and internals of the project](http://yedingding.com/2014/08/01/node-webkit-intro-en.html)
 
 ## Features
@@ -25,7 +25,7 @@ It was created in the Intel Open Source Technology Center.
 * Available on Linux, Mac OS X and Windows.
 
 ## Downloads
-* **v0.44.2:** (Feb 19, 2020, based off of Node.js v13.8.0, Chromium 80.0.3987.116) : [release notes](https://nwjs.io/blog/v0.44.2/)  
+* **v0.44.2:** (Feb 19, 2020, based off of Node.js v13.8.0, Chromium 80.0.3987.116) : [release notes](https://nwjs.io/blog/v0.44.2/)
  **NOTE** You might want the **SDK build**. Please read the release notes.
  * Linux: [32bit](https://dl.nwjs.io/v0.44.2/nwjs-v0.44.2-linux-ia32.tar.gz) / [64bit](https://dl.nwjs.io/v0.44.2/nwjs-v0.44.2-linux-x64.tar.gz)
  * Windows: [32bit](https://dl.nwjs.io/v0.44.2/nwjs-v0.44.2-win-ia32.zip) / [64bit](https://dl.nwjs.io/v0.44.2/nwjs-v0.44.2-win-x64.zip)
@@ -66,18 +66,18 @@ Create `package.json`:
 }
 ```
 
-Run:  
+Run:
 ```bash
 $ /path/to/nw .  (suppose the current directory contains 'package.json')
 ```
 
 Note: on Windows, you can drag the folder containing `package.json` to `nw.exe` to open it.
 
-Note: on OSX, the executable binary is in a hidden directory within the .app file. To run node-webkit on OSX, type:  
-`/path/to/nwjs.app/Contents/MacOS/nwjs .` *(suppose the current directory contains 'package.json')*   
+Note: on OSX, the executable binary is in a hidden directory within the .app file. To run node-webkit on OSX, type:
+`/path/to/nwjs.app/Contents/MacOS/nwjs .` *(suppose the current directory contains 'package.json')*
 
 ## Documents
-Official documentation: http://docs.nwjs.io/  
+Official documentation: http://docs.nwjs.io/
 
 For more information on how to write/package/run apps, see:
 
